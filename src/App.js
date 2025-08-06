@@ -7,7 +7,8 @@ import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Testimonials from './pages/Testimonials';
 import CTA from './pages/CTA';
-import { ThemeToggle } from './components/ThemeToggle';
+import ThemeToggle from './components/ThemeToggle';
+
 
 function App() {
   return (
@@ -17,11 +18,7 @@ function App() {
       <main>
         <Hero />
         <Features />
-        <Testimonials />
-        <Pricing />
-        <CTA />
       </main>
-      <Footer />
     </div>
   );
 }

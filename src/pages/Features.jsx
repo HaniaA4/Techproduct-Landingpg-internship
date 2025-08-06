@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent } from "./Card";
+import { Card, CardContent } from "../components/Card";
 import { Cloud, Shield, Zap, Users, Smartphone, Globe } from "lucide-react";
 
 const features = [
