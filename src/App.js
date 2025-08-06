@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
+import Hero from './pages/Hero';
+import Features from './pages/Features';
+import Pricing from './pages/Pricing';
+import Testimonials from './pages/Testimonials';
+import CTA from './pages/CTA';
+import { ThemeToggle } from './components/ThemeToggle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-background">
+      <Header />
+      <ThemeToggle />
+      <main>
+        <Hero />
+        <Features />
+        <Testimonials />
+        <Pricing />
+        <CTA />
+      </main>
+      <Footer />
     </div>
   );
 }
