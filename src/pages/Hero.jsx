@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Button from "../components/Button";
 import { Play, ArrowRight } from "lucide-react";
 

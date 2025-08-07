@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.css';
+//import React from 'react';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 import Hero from './pages/Hero';
@@ -19,6 +18,7 @@ function App() {
         <Hero />
         <Features />
       </main>
+      <Testimonials />
     </div>
   );
 }

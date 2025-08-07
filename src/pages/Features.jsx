@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import { Card, CardContent } from "../components/Card";
 import { Cloud, Shield, Zap, Users, Smartphone, Globe } from "lucide-react";
 

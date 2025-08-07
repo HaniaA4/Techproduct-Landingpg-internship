@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import Button from "../components/Button";
 import ThemeToggle from '../components/ThemeToggle';
 import { BrainCircuit } from "lucide-react"; 
@@ -16,7 +16,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <BrainCircuit className="h-8 w-8 text-primary" /> {/* Icon */}
-          <span className="font-medium text-lg">Nuronet</span>
+          <span className="font-medium text-lg">Nurosync</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
