@@ -1,5 +1,5 @@
 import { Card, CardContent } from "../components/Card";
-import { Avatar, AvatarFallback } from "../components/Avatar.jsx";
+import { Avatar, AvatarFallback } from "../components/Avatar";
 import { Star } from "lucide-react";
 
 const testimonials = [
