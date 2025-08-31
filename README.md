@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💻 Tech Product Landing Page – Internship Project
 
-## Available Scripts
+A sleek and responsive landing page for a fictional tech product, built to showcase product features, testimonials, and pricing tiers.        
+Designed with modern layout principles and theme-aware styling.
 
-In the project directory, you can run:
+✨ Features:
 
-### `npm start`
+🚀 Hero Section      
+Includes product name, and a call-to-action buttons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📦 Feature Highlights     
+Multiple feature cards with icons and descriptions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🗣️ Testimonials      
+Quotes from happy users with clean card layout.
 
-### `npm test`
+💰 Pricing Tiers      
+Three pricing options with visual separation and clarity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📱 Responsive Design      
+Optimized for mobile, tablet, and desktop screens.
 
-### `npm run build`
+🌗 Dark/Light Mode Toggle      
+Theme-aware styling with persistent user preference.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-----------------------------------------------------------------------------------------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React (JavaScript)
 
-### `npm run eject`
+Tailwind CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Vercel (Deployment)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GitHub (Version Control)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-----------------------------------------------------------------------------------------------------
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 Live Demo 
 
-## Learn More
+🔗 View the deployed site
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-----------------------------------------------------------------------------------------------------
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📂 Folder Structure
 
-### Code Splitting
+src/
+├── components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+├── pages/
 
-### Analyzing the Bundle Size
+│   └── Hero.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+│   └── Features.js
 
-### Making a Progressive Web App
+│   └── Testimonials.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+│   └── Pricing.js
 
-### Advanced Configuration
+│   └── Footer.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+├── App.js
 
-### Deployment
+├── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+------------------------------------------------------------------------------------------------------
 
-### `npm run build` fails to minify
+📦 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git clone https://github.com/HaniaA4/Techproduct-Landingpg-internship
+
+cd Techproduct-Landingpg-internship
+
+npm install
+
+npm start
+
+------------------------------------------------------------------------------------------------------
+
+🙋‍♀️ Author
+
+Hania Aziz
+
+Junior Full Stack Developer
+
+haniaaziz095@gmail.com
+
+http://www.linkedin.com/in/haniaaziz
+
+-------------------------------------------------------------------------------------------------------
+
+📄 License
+
+This project is licensed under the MIT License.
